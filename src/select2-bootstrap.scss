@@ -88,7 +88,11 @@ $clear-selection-color: $dropdown-arrow-color !default;
     display: block;
 
 
-
+    &.select2.select2-container {
+      display: table;
+      table-layout: fixed;
+      width: 100%; 
+    }
 
 
     /*------------------------------------*\

@@ -51,6 +51,11 @@
       #RTL SUPPORT
   \*------------------------------------*/
 }
+.select2-container--bootstrap.select2.select2-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
 .select2-container--bootstrap .select2-selection {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
